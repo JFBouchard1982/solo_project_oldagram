@@ -1,0 +1,203 @@
+html, body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.container-main {
+    padding: 0;
+    width: 375px;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+/* typography */
+
+h3, p {
+    margin: 0;
+}
+/* header */
+
+.container-header {
+    width: 375px;
+    margin: 0px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+.oldagram-logo {
+    padding-left: 12px;
+    width:127px;
+}
+.user-avatar {
+    margin-top: 10px;
+    margin-right: 12px;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+}
+
+/* section 1 - btn */
+
+.btn-container-section-one {
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6; 
+}
+.btnarrow {
+    font-size: 20px;
+}
+#previous-btn, #next-btn {
+    flex: 0.3;
+    padding: 4px 12px;
+    background-color: #fff;
+    border: 1px solid #C6C6C6;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#previous-btn:hover,
+#next-btn:hover {
+    background-color: gray;
+    color: whitesmoke;
+    border: none;
+}
+#previous-btn:active,
+#next-btn:active {
+    background-color: #000000;
+    color: whitesmoke;
+    border: none;
+}
+
+/* section 1 - avatar - name - location */
+
+.container-icon-name-location {
+    padding: 5px 0px 0px 12px;
+    display: flex;
+    justify-content: space-around
+}
+#avatar-image-container {
+    margin-bottom: 7px;
+    margin-top: 7px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#goBlock {
+    border: 1px solid black
+}
+#name {
+    align-self:center;
+    font-size: 16px;
+    font-weight: 700;
+}
+#location {
+    align-self:center;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+/* section 2 - image, buttons & likes */
+
+#post-image {
+    width: 375px;
+    height: 375px;
+}
+.btn-container-section-two {
+    padding-left: 12px;
+}
+#heart-btn {
+    margin: 10px 10px 10px 0px;
+    width: 23px;
+    height: 23px;
+    background: url("images/icon-heart.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+#comment-btn {
+    margin: 10px 10px 10px 0px;
+    width: 23px;
+    height: 23px;
+    background: url("images/icon-comment.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+#dm-btn {
+    margin: 10px 10px 10px 0px;
+    width: 23px;
+    height: 23px;
+    background: url("images/icon-dm.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+#likes {
+    border-top: 1px solid #C6C6C6;
+    padding-top: 9px;
+    padding-left: 12px;
+    font-size: 15px;
+    font-weight: 700
+    
+}
+/* section 3 - comments */
+.comments-container {
+    padding: 0px 0px 15px 12px;
+}
+#comment-name {
+    font-size: 15px;
+    font-weight: 700;
+
+}
+#comment-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+.your-comment-container {
+    display: flex;
+    justify-content: space-between;
+}
+.user-avatar-resize {
+    width: 30px;
+    border-radius: 50%;
+}
+#your-comment {
+    border: 1px solid #C6C6C6;  
+    padding-bottom: 5px;
+}
+#heart-emoji-btn {
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+#hands-emoji-btn {
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+#emoji-menu-btn {
+    margin-right: 12px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+#heart-emoji-btn:hover,
+#hands-emoji-btn:hover,
+#emoji-menu-btn:hover {
+    text-decoration: overline 2px gray;
+    text-decoration-line: 20px;
+}
+#heart-emoji-btn:active,
+#hands-emoji-btn:active,
+#emoji-menu-btn:active {
+    text-decoration: overline 3px #000000;
+}
+#ul-el {
+    padding-right: 12px;
+    width: 298px;
+    border: solid 1px #C6C6C6;
+    list-style-type:circle;
+}

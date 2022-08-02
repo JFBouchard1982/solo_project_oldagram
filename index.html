@@ -1,0 +1,73 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="container-main">
+            <!-- header -->
+            <header>
+                <div class="container-header">
+                    <img class="oldagram-logo" src="images/logo.png">
+                    <img class="user-avatar" src="images/user-avatar.png"> 
+                </div>
+            </header>
+            <!-- section 1 - avatar - name - location -->
+            <section>
+                <div class="btn-container-section-one">
+                    <button id="previous-btn">
+                        <span class="btnarrow">⇦</span> Previous</button>
+                    <button id="next-btn">Next 
+                        <span class="btnarrow">⇨</span></button>
+                </div>
+                <div class="container-icon-name-location">
+                    <img id="avatar-image-container" src="images/avatar-vangogh.jpg">
+                    <h3 id="name">Vincent van Gogh<br></h3>
+                    <p id="location">Zudert, Netherlands</p>
+                </div>
+                
+            <!-- section 2 - image, buttons & likes    -->
+            <section>
+                <img id="post-image" src="images/post-vangogh.jpg">
+                <div class="btn-container-section-two">
+                    <button id="heart-btn".btn></button>
+                    <button id="comment-btn".btn></button>
+                    <button id="dm-btn".btn></button> 
+                </div>
+                <h3 id="likes">21,492 likes</h3>
+            </section>
+            <!-- section 3 - comments -->
+            <section>
+                <div class="comments-container">
+                    <ul id="ul-el">
+                        <li>Add your comment here this is a test.</li>
+                        <li>Add your comment here this is a test.</li>
+                        <li>Add your comment here this is a test.</li>
+                        <li>Add your comment here this is a test.</li>
+                        <li>Add your comment here this is a test.</li>
+                        <li>Add your comment here this is a test.</li>
+                        <li><span id="comment-name">vincey1853</span>
+                        <span id="comment-text">just took a few mushrooms lol</span>
+                    </ul>
+                <div class="your-comment-container">
+                    <img class="user-avatar-resize" src="images/user-avatar.png">
+                    <div>
+                        <input id="your-comment" type="text" placeholder="Add a comment..." size="25">
+                    </div>
+                    <!-- comment ❤️ emoji -->
+                    <button id="heart-emoji-btn">❤️</button>  
+                    <!-- comment 🙌 emoji -->
+                    <button id="hands-emoji-btn">🙌</button>
+                    <!-- open emoji menu -->
+                    <button id="emoji-menu-btn">⊕</button>
+                </div>
+                </div>                
+            </section>    
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
